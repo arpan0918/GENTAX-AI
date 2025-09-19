@@ -1,0 +1,18 @@
+# Web framework
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# Data validation
+pydantic==2.7.4
+pydantic-core==2.18.4
+typing-extensions==4.12.2
+itsdangerous==2.2.0
+
+# Environment
+python-dotenv==1.0.0
+
+# File uploads
+python-multipart==0.0.6
+
+# Groq SDK
+groq==0.4.2
