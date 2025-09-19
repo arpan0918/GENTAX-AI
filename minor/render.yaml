@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: gentaxai-fastapi
+    runtime: docker
+    dockerfilePath: ./dockerfile
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: PORT
+        value: 8000
+      - key: GROQ_MODEL
+        value: llama-3.1-8b-instant
+
+
